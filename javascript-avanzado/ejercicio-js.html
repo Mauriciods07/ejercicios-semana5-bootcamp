@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <title>Ejercicio JS avanzado</title>
+
+        <style>
+            * { 
+                text-align: center;
+            }
+
+            h1 {
+                text-align: center;
+            }
+
+            .contenedor {
+                background-color: green;
+                color: white;
+                margin: auto;
+                border: 3px solid lightgrey;
+                border-radius: 20px;
+                height: 30vh;
+                width: 30vw;
+                padding: 5vh 5vw;
+            }
+        </style>
+    </head>
+    <body>
+        
+        <h1 id="title">Hola, nombre</h1>
+
+        <div class="contenedor">
+            <div class="btn-div">
+                <p>
+                    <button id="change-btn" onclick="changeName();">Cambiar nombre</button>
+                </p>
+            </div>
+            <p id="name-label"></p>
+        </div>
+
+        <script src="assets/js/cambiar-nombre.js"></script>
+    </body>
+</html>

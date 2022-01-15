@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <title>Condiciones y expresiones</title>
+
+        <style>
+            * {
+                text-align: center;
+            }
+
+            .container {
+                border: 2px solid lightblue;
+                border-radius: 50px;
+                background: lightgreen;
+            }
+
+            .label {
+                margin: 20px;;
+            }
+
+            .btn {
+                margin-bottom: 10px;
+            }
+        </style>
+
+    </head>
+    <body>
+        <h1>Condiciones y estructuras</h1>
+
+        <div class="container">
+            <div class="label">
+                <label for="word">¿Cuál es tu palabra?: </label>
+                <input type="text" name="word" id="word" placeholder="Palabra">
+            </div>
+            <div class="btn">
+                <input type="button" value="Invertir" onclick="invertirPalabra();">
+            </div>
+            <div id="show-word">
+
+            </div>
+        </div>
+
+        <!-- <script src="assets/js/script.js"></script> -->
+        <script src="assets/js/objetoString.js"></script>
+    </body>
+</html>
